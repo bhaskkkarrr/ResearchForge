@@ -1,0 +1,14 @@
+@import "tailwindcss";
+* {
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+@theme {
+  --color-forest-green-900: #051f20;
+  --color-forest-green-700: #0b2b26;
+  --color-forest-green-600: #163832;
+  --color-forest-green-400: #235347;
+  --color-forest-green-300: #8eb69b;
+  --color-forest-green-100: #daf1de;
+}

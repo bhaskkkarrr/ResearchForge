@@ -1,0 +1,42 @@
+# Core LangChain
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langgraph
+
+# Search Tool
+tavily-python
+
+
+# Web Scraping
+beautifulsoup4
+lxml
+requests
+
+# Mistral AI
+langchain-mistralai
+
+# Groq AI
+langchain-groq
+
+# Ollama
+langchain-ollama
+
+langchain-openrouter
+
+# Environment Variables
+python-dotenv
+
+# Token Counting (optional but recommended)
+tiktoken
+
+# Validation
+pydantic
+
+# Logging / Utilities
+typing-extensions
+rich
+
+fastapi
+uvicorn
