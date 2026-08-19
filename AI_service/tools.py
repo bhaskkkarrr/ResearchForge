@@ -1,5 +1,4 @@
 from langchain.tools import tool
-from rich import print
 import requests
 from bs4 import BeautifulSoup
 from tavily import TavilyClient
