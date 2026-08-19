@@ -19,5 +19,8 @@ app.use(cookieParser());
 app.use(morgan("dev"));
 app.use("/api/auth", authRouter);
 app.use("/api/research", researchRouter);
+app.head("/", (req, res) => {
+  return res.status(200).end();
+});
 
 export default app;
