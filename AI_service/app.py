@@ -3,6 +3,13 @@ from pipeline import research_report
 from model import ResearchRequest
 router = APIRouter()
 app = FastAPI()
+
+@app.get("/")
+def health_check():
+    return {
+        "success": True,
+        "message": "AI service is running"
+    }
 @app.post('/research/report')
 async def build_research_report(topic:ResearchRequest):
   print('request reached')
